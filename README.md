@@ -50,7 +50,8 @@ Download data file from [this link](https://drive.google.com/file/d/1Rrcfo2c_SQ4
 
 ### step 4:
 
-You can train new model by running "train.py"
+You can train new model by running "train.py".
+
 You can run "python predict.py -h" to get more optional arguments details.
 
 Example:
@@ -60,8 +61,9 @@ python train.py --input processed_data/scpdb_dataset.hdf --output model_dir
 
 ### step 5:
 
-You can predict ligand binding pocket by running "predict.py"
-You can run "python predict.py -h" to get more optional arguments details.
+You can predict ligand binding pocket by running "predict.py".
+
+You can run "python train.py -h" to get more optional arguments details.
 
 Example:
 <pre>
