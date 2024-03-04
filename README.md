@@ -13,6 +13,7 @@ Please, install the following packages:
 - openbabel 3.1.1
 - scikit-image 0.19.2
 - pandas 1.4.4
+- h5py 2.10.0
 - tqdm
 
 ## Content
@@ -34,17 +35,18 @@ conda activate env_name
 conda install tqdm
 conda install numpy==1.23.3
 conda install scikit-image==0.19.2
+conda install -c conda-forge h5py=2.2.0
 conda install -c conda-forge openbabel=3.1.1
 conda install -c conda-forge tensorflow=2.2.0
 </pre>
 
 ### step 2:
 
-Download model file from [this link](https://github.com/), and move it into ./model_dir directory.
+Download model file from [this link](https://drive.google.com/file/d/1KgFj2JBjbwyyfgCiXcCx27qpdGL9SH16/view?usp=sharing), and move and extract it into ./model_dir directory.
 
 ### step 3:
 
-Download data file from [this link](https://github.com/), and move it into ./processed_data directory.
+Download data file from [this link](https://drive.google.com/file/d/1Rrcfo2c_SQ4r_OnFV8gmBzsSpw6lbni_/view?usp=sharing), and move it into ./processed_data directory.
 
 ### step 4:
 
